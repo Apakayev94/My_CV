@@ -1,0 +1,322 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e3e3e3;
+}
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 1700px;
+    width: 900px;
+    
+    margin: 40px auto;
+    position: relative;
+}
+.section-1 {
+    background-color: #0f2f5e;
+    height: 1660px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.section-2 {
+    height: 1660px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ------------------------------ */
+/* Section 2 */
+
+/* About Me */
+.about-me {
+    width: 500px;
+    margin-top: 100px ;
+    margin-left: 340px;
+    margin-bottom: 0px;
+}
+.my-position {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(60, 60, 60);
+    margin-bottom: 0px;
+}
+.my-name {
+    font-weight: 700;
+    margin-top: 25px ;
+    font-size: 40px;
+    line-height: 55px;
+    color: rgb(60, 60, 60);
+}
+
+/* Personal Details */
+.personal-details {
+    width: 500px;
+    margin-top: 60px ;
+    margin-left: 340px;
+    margin-bottom: 0px;
+}
+.personal-details-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(60, 60, 60);
+    margin-top: 15px ;
+    margin-bottom: 8px;
+}
+.details-box, .areas-of-expertise-box {
+    margin-left: 30px;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+}
+.details, .areas, .skills-areas {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(120, 120, 120);
+    margin: 0;
+} 
+.details-color-blue, .areas-of-expertise-color-blue {
+    padding-left: 20px;
+    color: #1167cb;
+}
+
+/* Education */
+.education {
+    width: 500px;
+    margin-top: 25px ;
+    margin-left: 340px;
+    margin-bottom: 0px;
+}
+.education-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(60, 60, 60);
+    margin-top: 15px ;
+    margin-bottom: 8px;
+}
+.education-box {
+    margin-left: 30px;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+}
+.university {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1167cb;
+    margin: 0;
+    margin-bottom: 3px;
+}
+.faculty{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px; 
+    color: rgb(120, 120, 120);
+    margin: 0;
+    margin-bottom: 3px;
+}
+.faculty-ul {
+    padding-top: 0px; 
+    padding-left: 18px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.faculty-li {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(120, 120, 120);
+    margin: 0;
+}
+
+/* Work Experience */
+.work-experience {
+    width: 500px;
+    margin-top: 25px ;
+    margin-left: 340px;
+    margin-bottom: 0px;
+}
+.work-experience-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(60, 60, 60);
+    margin-top: 15px ;
+    margin-bottom: 8px;
+}
+.experience {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1167cb;
+    margin: 0;
+    margin-left: 30px;
+} 
+
+/* Projects */
+.projects {
+    width: 500px;
+    margin-top: 25px ;
+    margin-left: 340px;
+    margin-bottom: 0px;
+}
+.projects-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(60, 60, 60);
+    margin-top: 15px ;
+    margin-bottom: 8px;
+}
+.projects-ol {
+    padding-left: 30px;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+} 
+.projects-li {
+    margin: 0;
+    margin-bottom: 12px;
+}
+.projects-p-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px; 
+    color: #1167cb;
+    margin-bottom: 3px;
+    padding: 0;
+}
+.web {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(120, 120, 120); /* collor link */
+    padding-left: 0px;
+}
+.projects-text-span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(120, 120, 120); /* color text */
+}
+.square-bracket {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(40, 40, 40); /* color square bracket */
+}
+
+/* Tech Skills and Soft Skills */
+.tech-skills, .soft-skills {
+    width: 500px;
+    margin-top: 25px ;
+    margin-left: 340px;
+    margin-bottom: 0px;
+}
+.skills-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(60, 60, 60);
+    margin-top: 15px ;
+    margin-bottom: 8px;
+}
+.skills-ul {
+    padding-top: 0px; 
+    padding-left: 45px;
+    margin: 0;
+}
+.skills-li {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(60, 60, 60);
+    margin: 0;
+}
+.skills-areas {
+    padding-top: 0px; 
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.skills-li-text {
+    color: #1167cb;
+    padding-left: 0px;
+}
+.skills-color-blue-text {
+    margin: 0px;
+    color: #1167cb;
+    margin-left: 5px;
+}
+.skills-color-blue {
+    font-weight: 400;
+    margin: 0px;
+    color: #1167cb;
+    margin-left: 30px;
+}
+
+/* Areas of Expertise */
+.areas-of-expertise {
+    width: 500px;
+    margin-top: 25px ;
+    margin-left: 340px;
+    margin-bottom: 100px;
+}
+.areas-of-expertise-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(60, 60, 60);
+    margin-top: 15px ;
+    margin-bottom: 8px;
+}
+/* .areas, .areas-of-expertise-color-blue - look in Personal Details */
+
+
+/* ------------------------------ */
+/* Section 1 */
+
+/* Photo */
+.photo {
+    margin-top: 40px; 
+    margin-bottom: 0px;
+    width: 300px;
+}
+
+/* Contacts */
+.contacts {
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.contacts-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px; 
+    color: #fff;
+    margin-top: 10px ;
+    margin-bottom: 30px;
+}
+.contacts-box {
+    margin-bottom: 18px;
+}
+.contacts-information {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+}
+.contacts-information-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a1a7ae;
+    margin: 0;
+}
